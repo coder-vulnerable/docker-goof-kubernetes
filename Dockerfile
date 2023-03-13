@@ -1,4 +1,4 @@
-FROM node:8
+FROM node:lts-alpine3.17
 
 RUN mkdir /usr/src/goof
 RUN mkdir /tmp/extracted_files
